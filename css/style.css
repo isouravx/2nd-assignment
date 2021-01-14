@@ -1,0 +1,110 @@
+/* google fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap");
+
+/* Navbar and Banner section */
+
+#hero-section {
+  background-image: url(../images/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px;
+}
+#navbarNav li a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  color: #3c3c3c;
+  font-size: 16px;
+}
+#hero-heading-1 {
+  margin-top: 12vh;
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 80px;
+  color: #fabe4c;
+}
+#hero-heading-2 {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 80px;
+  color: #363958;
+}
+#hero-heading-p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #3e3e3e;
+}
+
+/* My own button style */
+
+#my-btn-style {
+  border: none;
+  background: linear-gradient(180deg, #a4bc46 0%, #85a019 100%);
+  border-radius: 10px;
+}
+
+/* Product name and price */
+
+#price {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  color: #fabe4c;
+}
+#product-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  padding-bottom: 2vh;
+  color: #363958;
+}
+#product-category {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  color: #363958;
+  padding-bottom: 5vh;
+}
+
+/* News letter */
+
+.news-letter {
+  min-height: 25vh;
+  background-color: #fffbf0;
+  padding-bottom: 5vh;
+  margin-bottom: 2vh;
+}
+.news-letter h1 {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  color: #fabe4c;
+}
+/* Go top button */
+
+.back-to-top {
+  position: fixed;
+  bottom: 15px;
+  right: 10px;
+  padding: 10px 15px 5px 15px;
+  background-color: #fffbf061;
+  border: 2px solid #fabe4c;
+  border-radius: 10px;
+}
+.back-to-top a {
+  text-decoration: none;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #fabe4c;
+}
