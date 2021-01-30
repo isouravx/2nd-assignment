@@ -1,1 +1,1 @@
-# 2nd-assignment [live site](https://sou-rav.github.io/Discover-Fly/)
+# 2nd-assignment [live site]( https://sou-rav.github.io/2nd-assignment/)
